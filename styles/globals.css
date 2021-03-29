@@ -1,16 +1,26 @@
-html,
+html {
+  box-sizing: 	border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  background-color: black;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+img {
+  max-width: 100%;
+}
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: black;
+  font-size: 1.8rem!important;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.bg-black {
+  background-color: black;
 }
 
-* {
-  box-sizing: border-box;
+.swal2-popup, .swal2-modal {
+  font-size: 120%;
 }
